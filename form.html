@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Matthew's Ticker Search</title>
+   <link rel="stylesheet" type = "text/css" href="form.css"/>
+</head>
+<body>
+   <h1> FINAL Stock Ticker Search</h1>
+   <form action="part_two.js" method="post">
+       <h2>Please enter Stock Ticker Symbol or Company Name</h2><br>
+       <div class="input">
+           <label><input type="radio" name="searchType" value="company">Company Name</label>
+           <label><input type="radio" name="searchType" value="ticker" checked>Stock Ticker Symbol</label><br>
+           <input type="text" name="searchTerm" placeholder=" (company or ticker')">
+       </div>
+       <br><br><input type="submit" value="Search">
+   </form>
+</body>
+</html>
